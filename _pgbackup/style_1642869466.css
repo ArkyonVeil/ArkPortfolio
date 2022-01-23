@@ -1,0 +1,137 @@
+.showcase3d {
+    transform: perspective(500px) rotateY(30deg);
+}
+
+.backstar {
+    padding-top: 24px;
+    align-self: center;
+    padding-left: 32px;
+    max-width: 250px;
+    padding-right: 32px;
+}
+
+.headerrow {
+    margin-top: 28px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+h2 {
+    color: #e6e6e6;
+    font-family: philosopher;
+}
+
+.mask {
+    mask: url(Panel1Mask.svg);
+    mask-size: cover;
+    -webkit-mask: url(Panel1Mask.svg);
+    -webkit-mask-size: cover;
+    background-image: url('Panel1.svg');
+}
+
+.portfoliovideo {
+    flex-grow: 2;
+    align-self: center;
+    max-width: 90%;
+}
+
+p {
+    padding-left: 21px;
+    color: #edecec;
+}
+
+.arkseperator {
+    width: 20%;
+    margin-top: 140px;
+    margin-bottom: 72px;
+    position: relative;
+    left: 41%;
+}
+
+.imagoutline {
+    border-left: 3px solid rgba(246, 246, 246, 0.48);
+    border-top: 4px solid rgba(246, 246, 246, 0.48);
+    border-right: 1px solid rgba(246, 246, 246, 0.48);
+    border-bottom: 2px solid rgba(246, 246, 246, 0.48);
+}
+
+.imagebotvsai {
+    max-width: 100%;
+    border-width: 6px;
+    border-style: solid;
+}
+
+h3 {
+    color: #f0f0f0;
+    text-align: center;
+    font-family: generica;
+    letter-spacing: 2px;
+}
+
+@font-face{
+    font-family: 'generica';
+    src: url(fonts/GENERICA.OTF);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: 'philosopher';
+    src: url(fonts/Philosopher-Regular.ttf;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.nav-item {
+    font-family: philosopher;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.arkcard {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.arkcard {
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    align-items: center;
+    max-width: 420px;
+    padding-top: 40px;
+}
+
+.centerContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+arkslotter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.arkslotter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
